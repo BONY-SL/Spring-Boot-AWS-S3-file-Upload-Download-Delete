@@ -1,15 +1,16 @@
 cloud:
   aws:
     credentials:
-      access-key: AKIA6GBMF4AZHZKMJ64J
-      secret-key: bRvWjt1wdYulvY6vxmdsvyR+9UcRe3nJDvNinmvE
+      access-key: your Key
+      secret-key: your Key
+    region:
+      static: Your cloud region
     stack:
       auto: false
 
 application:
   bucket:
-    name: awsfileuploaddownloadslbony
-
+    name: your bucket name
 
 spring:
   servlet:
