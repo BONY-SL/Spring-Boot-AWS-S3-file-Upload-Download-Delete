@@ -1,0 +1,23 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIA6GBMF4AZHZKMJ64J
+      secret-key: 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
+    stack:
+      auto: false
+
+application:
+  bucket:
+    name: awsfileuploaddownloadslbony
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 8080
